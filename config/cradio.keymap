@@ -318,7 +318,7 @@
         };
 
         combo_tab2 {
-            bindings = <&hml LC(LSHFT) TAB>;
+            bindings = <&hml LC(LSHFT) LEFT_ALT>;
             key-positions = <12 13>;
             timeout-ms = <18>;
             require-prior-idle-ms = <50>;
