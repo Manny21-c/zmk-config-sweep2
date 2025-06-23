@@ -95,10 +95,10 @@
 
         layer_2 {
             bindings = <
-&kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans    &trans  &trans
+&kp N1                &kp N2       &kp N3         &kp N4      &kp N5         &kp N6         &kp N7            &kp N8        &kp N9         &kp N0
+&kp LEFT_PARENTHESIS  &kp AT_SIGN  &kp HASH       &kp DOLLAR  &kp PERCENT    &kp CARET      &kp PLUS          &kp ASTERISK  &kp AMPERSAND  &kp RIGHT_PARENTHESIS
+&kp LEFT_BRACKET      &kp GRAVE    &kp BACKSLASH  &kp EQUAL   &kp TILDE      &kp UNDER      &kp MINUS         &kp SLASH     &kp PIPE       &kp RIGHT_BRACKET
+                                                  &trans      &trans         &kp LESS_THAN  &kp GREATER_THAN
             >;
         };
     };
