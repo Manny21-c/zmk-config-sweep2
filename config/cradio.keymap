@@ -74,7 +74,7 @@
         compatible = "zmk,combos";
 
         Combo_Esc {
-            bindings = <&kp ESCAPE>;
+            bindings = <&mt ESCAPE LEFT_ALT>;
             key-positions = <30 31>;
         };
 
