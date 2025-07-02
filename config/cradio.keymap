@@ -78,7 +78,7 @@
         };
 
         ComboMouse {
-            bindings = <&sl 3>;
+            bindings = <&to 3>;
             key-positions = <30 33>;
         };
     };
