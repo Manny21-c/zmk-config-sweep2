@@ -83,6 +83,11 @@
             bindings = <&kp DEL>;
             key-positions = <33 32>;
         };
+
+        ComboMouse {
+            bindings = <&sl 3>;
+            key-positions = <30 33>;
+        };
     };
 
     keymap {
@@ -112,6 +117,15 @@
 &kp LEFT_PARENTHESIS  &kp AT_SIGN  &kp HASH       &kp DOLLAR  &kp PERCENT    &kp CARET  &kp PLUS   &kp ASTERISK  &kp AMPERSAND  &kp RIGHT_PARENTHESIS
 &kp LEFT_BRACKET      &kp GRAVE    &kp BACKSLASH  &kp EQUAL   &kp TILDE      &kp UNDER  &kp MINUS  &kp SLASH     &kp PIPE       &kp RIGHT_BRACKET
                                                   &trans      &trans         &trans     &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans        &kp PG_UP       &mmv MOVE_UP    &kp PAGE_DOWN    &trans
+&trans  &trans  &trans  &trans  &trans    &trans        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans    &trans        &mkp LCLK       &mkp MCLK       &mkp RCLK        &trans
+                        &tog 0  &trans    &msc SCRL_UP  &msc SCRL_DOWN
             >;
         };
     };
