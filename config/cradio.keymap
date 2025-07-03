@@ -118,7 +118,7 @@
 &trans  &trans  &trans  &trans  &trans    &trans        &kp PG_UP       &mmv MOVE_UP    &kp PAGE_DOWN    &trans
 &trans  &trans  &trans  &trans  &trans    &trans        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans
 &trans  &trans  &trans  &trans  &trans    &trans        &mkp LCLK       &mkp MCLK       &mkp RCLK        &trans
-                        &tog 0  &trans    &msc SCRL_UP  &msc SCRL_DOWN
+                        &to 0   &trans    &msc SCRL_UP  &msc SCRL_DOWN
             >;
         };
     };
