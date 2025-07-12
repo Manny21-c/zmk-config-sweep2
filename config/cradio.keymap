@@ -70,42 +70,30 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        Combo_Esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <30 31>;
-        };
-
-        Combo_Del {
-            bindings = <&kp DEL>;
-            key-positions = <33 32>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&kp Q        &kp W        &kp E         &kp R         &kp T          &kp Y    &kp U          &kp I            &kp O             &kp P
-&hml LGUI A  &hml LALT S  &hml LCTRL D  &hml LSHFT F  &kp G          &kp H    &hmr RSHFT J   &hmr RCTRL K     &hmr RALT L       &hmr RGUI SEMICOLON
-&kp Z        &kp X        &kp C         &kp V         &kp B          &kp N    &kp M          &comma_question  &dot_exclamation  &kp APOS
-                                        &lt 1 SPACE   &lt 2 ENTER    &kp TAB  &kp BACKSPACE
+&kp Q        &kp W        &kp E         &kp R         &kp T        &kp Y           &kp U          &kp I            &kp O             &kp P
+&hml LGUI A  &hml LALT S  &hml LCTRL D  &hml LSHFT F  &kp G        &kp H           &hmr RSHFT J   &hmr RCTRL K     &hmr RALT L       &hmr RGUI SEMICOLON
+&kp Z        &kp X        &kp C         &kp V         &kp B        &kp N           &kp M          &comma_question  &dot_exclamation  &kp APOS
+                                        &kp SPACE     &kp ENTER    &mt LSHFT LALT  &kp BACKSPACE
             >;
         };
 
-        layer_2 {
+        Arrows {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans        &kp PG_UP       &kp UP    &kp PG_DN  &trans
-&trans  &trans  &trans  &trans  &trans    &trans        &kp LEFT        &kp DOWN  &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans    &trans        &kp TAB         &kp UP    &kp ESC    &trans
+&trans  &trans  &trans  &trans  &trans    &trans        &kp LEFT        &kp DOWN  &kp RIGHT  &kp DEL
 &trans  &trans  &trans  &trans  &trans    &trans        &trans          &trans    &trans     &trans
                         &trans  &trans    &msc SCRL_UP  &msc SCRL_DOWN
             >;
         };
 
-        layer_1 {
+        Number {
             bindings = <
 &kp N1    &kp N2    &kp N3     &kp N4     &kp N5    &kp N6  &kp N7     &kp N8     &kp N9    &kp N0
 &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp LGUI
