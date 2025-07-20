@@ -88,7 +88,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans    &kp ESC       &kp PAGE_UP     &kp UP    &kp PAGE_DOWN  &kp DEL
 &trans  &trans  &trans  &trans  &trans    &kp TAB       &kp LEFT        &kp DOWN  &kp RIGHT      &kp BSPC
-&trans  &trans  &trans  &trans  &trans    &kp END       &kp HOME        &kp END   &trans         &kp ENTER
+&trans  &trans  &trans  &trans  &trans    &kp END       &kp HOME        &mkp MB4  &mkp MB5       &kp ENTER
                         &trans  &trans    &msc SCRL_UP  &msc SCRL_DOWN
             >;
         };
