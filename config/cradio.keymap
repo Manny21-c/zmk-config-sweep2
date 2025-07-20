@@ -86,9 +86,9 @@
 
         Arrows {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans        &kp PAGE_UP     &kp UP    &kp PAGE_DOWN  &trans
-&trans  &trans  &trans  &trans  &trans    &trans        &kp LEFT        &kp DOWN  &kp RIGHT      &trans
-&trans  &trans  &trans  &trans  &trans    &trans        &trans          &trans    &trans         &trans
+&trans  &trans  &trans  &trans  &trans    &kp ESC       &kp PAGE_UP     &kp UP    &kp PAGE_DOWN  &kp BSPC
+&trans  &trans  &trans  &trans  &trans    &kp TAB       &kp LEFT        &kp DOWN  &kp RIGHT      &kp ENTER
+&trans  &trans  &trans  &trans  &trans    &trans        &trans          &trans    &trans         &kp DEL
                         &trans  &trans    &msc SCRL_UP  &msc SCRL_DOWN
             >;
         };
