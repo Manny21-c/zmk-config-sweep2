@@ -84,12 +84,12 @@
             >;
         };
 
-        Arrows {
+        Nav {
             bindings = <
-&trans    &trans          &mmv MOVE_UP    &trans           &trans    &kp ESC       &kp PAGE_UP     &kp UP     &kp PAGE_DOWN  &kp DEL
-&trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans    &kp TAB       &kp LEFT        &kp DOWN   &kp RIGHT      &kp BSPC
-&kp LGUI  &kp LALT        &kp LCTRL       &kp LSHFT        &trans    &kp END       &mkp LCLK       &mkp MCLK  &mkp RCLK      &kp ENTER
-                                          &trans           &trans    &msc SCRL_UP  &msc SCRL_DOWN
+&kp C_MUTE  &kp C_VOLUME_DOWN  &mmv MOVE_UP    &kp C_VOLUME_UP  &mkp MB4      &kp ESC       &kp PAGE_UP     &kp UP     &kp PAGE_DOWN  &kp DEL
+&kp C_PLAY  &mmv MOVE_LEFT     &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5      &kp TAB       &kp LEFT        &kp DOWN   &kp RIGHT      &kp BSPC
+&kp LGUI    &kp LALT           &kp LCTRL       &kp LSHFT        &kp C_PREV    &kp C_NEXT    &mkp LCLK       &mkp MCLK  &mkp RCLK      &kp ENTER
+                                               &trans           &trans        &msc SCRL_UP  &msc SCRL_DOWN
             >;
         };
 
@@ -99,6 +99,15 @@
 &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp LGUI
 &trans    &trans    &trans     &trans     &trans    &trans  &trans     &trans     &trans    &trans
                                &trans     &trans    &trans  &trans
+            >;
+        };
+
+        Symbol {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans    &trans  &trans
             >;
         };
     };
