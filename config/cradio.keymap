@@ -65,16 +65,6 @@
     combos {
         compatible = "zmk,combos";
 
-        Combo_Esc {
-            bindings = <&mt ESCAPE LEFT_ALT>;
-            key-positions = <30 31>;
-        };
-
-        Combo_Del {
-            bindings = <&kp DEL>;
-            key-positions = <33 32>;
-        };
-
         ComboMouse {
             bindings = <&to 0>;
             key-positions = <30 33>;
