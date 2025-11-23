@@ -131,10 +131,10 @@
 
         nav {
             bindings = <
-&trans   &trans   &trans   &trans    &trans     &trans  &trans    &kp UP    &trans     &trans
-&kp ESC  &kp TAB  &kp RET  &kp BSPC  &kp DEL    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
-&trans   &trans   &trans   &trans    &trans     &trans  &trans    &trans    &trans     &trans
-                           &trans    &trans     &trans  &trans
+&trans                &trans             &trans                 &trans                     &trans     &trans  &trans                       &kp UP                   &trans                &trans
+&hml LEFT_GUI ESCAPE  &hml LEFT_ALT TAB  &hml LEFT_CONTROL RET  &hml LEFT_SHIFT BACKSPACE  &kp DEL    &trans  &hmr RIGHT_SHIFT LEFT_ARROW  &hmr RIGHT_CONTROL DOWN  &hmr RIGHT_ALT RIGHT  &trans
+&trans                &trans             &trans                 &trans                     &trans     &trans  &trans                       &trans                   &trans                &trans
+                                                                &trans                     &trans     &trans  &trans
             >;
         };
 
