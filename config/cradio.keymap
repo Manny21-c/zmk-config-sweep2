@@ -58,6 +58,24 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        lp_lessthan: lp_lessthan {
+            compatible = "zmk,behavior-mod-morph";
+            label = "LP_LESSTHAN";
+            bindings = <&kp LEFT_PARENTHESIS>, <&kp LESS_THAN>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        rp_greatert: rp_greatert {
+            compatible = "zmk,behavior-mod-morph";
+            label = "RP_GREATERT";
+            bindings = <&kp RIGHT_PARENTHESIS>, <&kp GREATER_THAN>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
