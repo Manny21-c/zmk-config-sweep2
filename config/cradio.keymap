@@ -141,7 +141,7 @@
         Num_Sym {
             bindings = <
 &kp N1            &kp N2            &kp N3                  &kp N4                  &kp N5                &kp N6     &kp N7                 &kp N8                       &kp N9                    &kp N0
-&lp LEFT_GUI 0    &hml LEFT_ALT AT  &hml LEFT_CONTROL HASH  &hml LEFT_SHIFT DOLLAR  &kp PERCENT           &kp CARET  &hmr RIGHT_SHIFT PLUS  &hmr RIGHT_CONTROL ASTERISK  &hmr RIGHT_ALT AMPERSAND  &hmr RIGHT_GUI RIGHT_PARENTHESIS
+&lp LEFT_GUI 0    &hml LEFT_ALT AT  &hml LEFT_CONTROL HASH  &hml LEFT_SHIFT DOLLAR  &kp PERCENT           &kp CARET  &hmr RIGHT_SHIFT PLUS  &hmr RIGHT_CONTROL ASTERISK  &hmr RIGHT_ALT AMPERSAND  &rp RIGHT_GUI 0
 &kp LEFT_BRACKET  &kp GRAVE         &kp BACKSLASH           &kp EQUAL               &kp TILDE             &kp UNDER  &kp MINUS              &kp SLASH                    &kp PIPE                  &kp RIGHT_BRACKET
                                                             &lpara_lessthan         &rpara_greaterthan    &trans     &trans
             >;
