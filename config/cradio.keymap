@@ -59,18 +59,18 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        lp_lessthan: lp_lessthan {
+        lpara_lessthan: lpara_lessthan {
             compatible = "zmk,behavior-mod-morph";
-            label = "LP_LESSTHAN";
+            label = "LPARA_LESSTHAN";
             bindings = <&kp LEFT_PARENTHESIS>, <&kp LESS_THAN>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        rp_greatert: rp_greatert {
+        rpara_greaterthan: rpara_greaterthan {
             compatible = "zmk,behavior-mod-morph";
-            label = "RP_GREATERT";
+            label = "RPARA_GREATERTHAN";
             bindings = <&kp RIGHT_PARENTHESIS>, <&kp GREATER_THAN>;
 
             #binding-cells = <0>;
@@ -113,7 +113,7 @@
         Num_Sym {
             bindings = <
 &kp N1                          &kp N2            &kp N3                  &kp N4                  &kp N5              &kp N6     &kp N7                 &kp N8                       &kp N9                    &kp N0
-&hml LEFT_GUI LEFT_PARENTHESIS  &hml LEFT_ALT AT  &hml LEFT_CONTROL HASH  &hml LEFT_SHIFT DOLLAR  &kp PERCENT         &kp CARET  &hmr RIGHT_SHIFT PLUS  &hmr RIGHT_CONTROL ASTERISK  &hml RIGHT_ALT AMPERSAND  &hmr RIGHT_GUI RIGHT_PARENTHESIS
+&hml LEFT_GUI LEFT_PARENTHESIS  &hml LEFT_ALT AT  &hml LEFT_CONTROL HASH  &hml LEFT_SHIFT DOLLAR  &kp PERCENT         &kp CARET  &hmr RIGHT_SHIFT PLUS  &hmr RIGHT_CONTROL ASTERISK  &hmr RIGHT_ALT AMPERSAND  &hmr RIGHT_GUI RIGHT_PARENTHESIS
 &kp LEFT_BRACKET                &kp GRAVE         &kp BACKSLASH           &kp EQUAL               &kp TILDE           &kp UNDER  &kp MINUS              &kp SLASH                    &kp PIPE                  &kp RIGHT_BRACKET
                                                                           &kp LESS_THAN           &kp GREATER_THAN    &trans     &trans
             >;
