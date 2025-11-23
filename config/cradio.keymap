@@ -76,6 +76,34 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        lp: lp {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <250>;
+            bindings = <&kp>, <&lpara_lessthan>;
+
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <32 31 30 33 5 6 7 8 9 15 16 17 18 19 25 26 27 28 29>;
+            label = "LP";
+        };
+
+        rp: rp {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <250>;
+            bindings = <&kp>, <&rpara_greaterthan>;
+
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <30 31 32 33 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24>;
+            label = "RP";
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
